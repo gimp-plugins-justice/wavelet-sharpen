@@ -1,0 +1,79 @@
+# English translations for wavelet-sharpen package.
+# Copyright (C) 2008 THE wavelet-sharpen'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the wavelet-sharpen package.
+#  <marco.rossini@gmx.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wavelet-sharpen 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-20 17:09+0100\n"
+"PO-Revision-Date: 2008-11-15 18:35+0100\n"
+"Last-Translator:  <marco.rossini@gmx.net>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/plugin.h:36
+msgid "Adjusts the amount of sharpening applied."
+msgstr "Legt die Stärke der Schärfung fest."
+
+#: ../src/plugin.h:37
+msgid ""
+"Adjusts the radius of the sharpening. For very unsharp images it is "
+"recommended to use higher values. Default is 0.5."
+msgstr ""
+"Legt den Radius für das Schärfen fest. Für sehr unscharfe Bilder ist es "
+"empfohlen, höhere Werte zu verwenden. Standard ist 0.5."
+
+#: ../src/plugin.h:38
+msgid ""
+"Sharpens luminance only (YCbCr luminance channel). This avoids color "
+"artifacts to appear and makes the sharpening faster. Colour sharpness in "
+"natural images is not critical for the human eye."
+msgstr ""
+"Schärft nur den Lumineszenz Kanal (YCbCr Lumineszenz). Dies reduziert "
+"Farbartefakte und macht das Schärfen schneller. Farbschärfe ist in "
+"natürlichen Bildern nicht kritisch für das menschliche Auge."
+
+#: ../src/plugin.h:39
+msgid "Resets to the default values."
+msgstr "Setzt zu den Standardwerten zurück."
+
+#: ../src/interface.c:20 ../src/interface.c:125
+msgid "Wavelet sharpen"
+msgstr "Wavelet schärfen"
+
+#: ../src/interface.c:33
+msgid "Amount"
+msgstr "Stärke"
+
+#: ../src/interface.c:61
+msgid "Radius"
+msgstr "Radius"
+
+#: ../src/interface.c:91
+msgid "Sharpen luminance only"
+msgstr "Nur Lumineszenz schärfen"
+
+#: ../src/plugin.c:29 ../src/plugin.c:30
+msgid "Sharpens the image using wavelets."
+msgstr "Schärft das Bild mit Hilfe von Wavelets."
+
+#: ../src/plugin.c:32
+msgid "Marco Rossini"
+msgstr "Marco Rossini"
+
+#: ../src/plugin.c:33
+msgid "Copyright 2008 Marco Rossini"
+msgstr "Copyright 2008 Marco Rossini"
+
+#: ../src/plugin.c:35
+msgid "_Wavelet sharpen ..."
+msgstr "_Wavelet schärfen ..."
+
+#: ../src/sharpen.c:64
+msgid "Wavelet sharpening..."
+msgstr "Wavelet schärfen..."

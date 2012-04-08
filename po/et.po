@@ -1,0 +1,79 @@
+# Estonian translations for wavelet-sharpen package.
+# Copyright (C) 2008 THE wavelet-sharpen'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the wavelet-sharpen package.
+#  <jyrkal@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wavelet-sharpen 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-16 17:09+0100\n"
+"PO-Revision-Date: 2009-01-17 18:35+0100\n"
+"Last-Translator:  <jyrkal@gmail.com>\n"
+"Language-Team: Estonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/plugin.h:36
+msgid "Adjusts the amount of sharpening applied."
+msgstr "Reguleerib teravustamise tugevust."
+
+#: ../src/plugin.h:37
+msgid ""
+"Adjusts the radius of the sharpening. For very unsharp images it is "
+"recommended to use higher values. Default is 0.5."
+msgstr ""
+"Sätestab teravustamise raadiuse. Väga udustele piltidele "
+"on soovitatav suurem raadus. Standard on 0.5."
+
+#: ../src/plugin.h:38
+msgid ""
+"Sharpens luminance only (YCbCr luminance channel). This avoids color "
+"artifacts to appear and makes the sharpening faster. Colour sharpness in "
+"natural images is not critical for the human eye."
+msgstr ""
+"Teravustab Luminessantsi ainult (YCbCr värviruum). See hoiab ära "
+"artifaktide tekkimist ja teravustab kiremini. Värviteravus "
+"loomulikel piltidel ei ole inimese silmale väga segav."
+
+#: ../src/plugin.h:39
+msgid "Resets to the default values."
+msgstr "Taastab vaikeväärtused."
+
+#: ../src/interface.c:20 ../src/interface.c:125
+msgid "Wavelet sharpen"
+msgstr "Wavelet teravustamine"
+
+#: ../src/interface.c:33
+msgid "Amount"
+msgstr "Tugevus"
+
+#: ../src/interface.c:61
+msgid "Radius"
+msgstr "Raadius"
+
+#: ../src/interface.c:91
+msgid "Sharpen luminance only"
+msgstr "Teravusta ainult luminantskanalit"
+
+#: ../src/plugin.c:29 ../src/plugin.c:30
+msgid "Sharpens the image using wavelets."
+msgstr "Teravustab pilti kasutades Wavelet meetodit."
+
+#: ../src/plugin.c:32
+msgid "Marco Rossini"
+msgstr "Marco Rossini"
+
+#: ../src/plugin.c:33
+msgid "Copyright 2008 Marco Rossini"
+msgstr "Copyright 2008 Marco Rossini"
+
+#: ../src/plugin.c:35
+msgid "_Wavelet sharpen ..."
+msgstr "_Wavelet teravustamine ..."
+
+#: ../src/sharpen.c:64
+msgid "Wavelet sharpening..."
+msgstr "Wavelet teravustamine..."

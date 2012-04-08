@@ -1,0 +1,47 @@
+README
+======
+
+The wavelet sharpen plugin increases apparent sharpness of an image. The amount
+of unsharpness in the original image can be taken into account. The plugin is
+not compareable to the builtin 'Sharpen' filter of the GIMP, however the
+results are simmilar to the ones with the builtin 'Unsharp mask' filter.
+
+LICENCE
+-------
+
+Copyright (C) 2008 by Marco Rossini. Distributed under the General Public
+License GPLv2+. See the file COPYING which contains the license.
+
+INSTALLATION
+------------
+
+See the file INSTALL for instructions how to install the plugins.
+
+USAGE
+-----
+
+There are two circumstances that makes it necessary to use the sharpen filter:
+
+1. To reduce the effects due to aliasing of an picture which is in focus.
+
+   a) Set the amount of sharpening using the slider.
+
+   b) You may want to have the checkbox 'Sharpen luminance only' activated in
+      order to avoid having colour artifacts (especially in noisy images).
+
+   c) The sharpening radius can be left at 0.5.
+
+2. To sharpen a picture which is out of focus.
+
+   a) Set the amount of sharpening rather high (at first).
+
+   b) Adjust the sharpening radius using the slider to choose the frequency
+      part in the image which is to be increased in contrast. This means for
+      blurred pictures you may want to set the value high (which sharpens slow-
+      ly varying image features, leaving high frequency noise alone). Use low
+      values if the image has many details.
+
+   c) Set the sharpening amount back to a value that pleases your eye.
+
+   d) You may want to have the checkbox 'Sharpen luminance only' activated in
+      order to avoid having colour artifacts (especially in noisy images).

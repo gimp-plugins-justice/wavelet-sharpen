@@ -1,0 +1,81 @@
+# Italian translation for wavelet-sharpen package.
+# Copyright (C) 2008 THE wavelet-sharpen'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the wavelet-sharpen package.
+# Carlo Baldassi <carlobaldassi@yahoo.it>, 2008.
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wavelet-sharpen 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-14 21:23+0100\n"
+"PO-Revision-Date: 2008-12-14 20:58+0100\n"
+"Last-Translator: Carlo Baldassi <carlobaldassi@yahoo.it>\n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/plugin.h:36
+msgid "Adjusts the amount of sharpening applied."
+msgstr "Imposta l'intensità dell'affilatura."
+
+#: ../src/plugin.h:37
+msgid ""
+"Adjusts the radius of the sharpening. For very unsharp images it is "
+"recommended to use higher values. Default is 0.5."
+msgstr ""
+"Imposta il raggio dell'affilatura. Per immagini molto poco nitide è "
+"consigliabile usare valori alti. Il valore predefinito è 0.5."
+
+#: ../src/plugin.h:38
+msgid ""
+"Sharpens luminance only (YCbCr luminance channel). This avoids color "
+"artifacts to appear and makes the sharpening faster. Colour sharpness in "
+"natural images is not critical for the human eye."
+msgstr ""
+"Affila solamente la lumimanza (ovvero il canale luminanza nello spazio "
+"colore YCbCr). Questo evita la creazione di \"impurità\" nei colori e rende "
+"il processo più rapido. L'affilatura dei colori non è critica per l'occhio "
+"umano nelle immagini naturali."
+
+#: ../src/plugin.h:39
+msgid "Resets to the default values."
+msgstr "Reimposta ai valori predefiniti."
+
+#: ../src/interface.c:20 ../src/interface.c:125
+msgid "Wavelet sharpen"
+msgstr "Affliatura tramite wavelet"
+
+#: ../src/interface.c:33
+msgid "Amount"
+msgstr "Intensità"
+
+#: ../src/interface.c:61
+msgid "Radius"
+msgstr "Raggio"
+
+#: ../src/interface.c:91
+msgid "Sharpen luminance only"
+msgstr "Affila solo la luminanza"
+
+#: ../src/plugin.c:29 ../src/plugin.c:30
+msgid "Sharpens the image using wavelets."
+msgstr "Affila l'immagine usando le wavelet."
+
+#: ../src/plugin.c:32
+msgid "Marco Rossini"
+msgstr "Marco Rossini"
+
+#: ../src/plugin.c:33
+msgid "Copyright 2008 Marco Rossini"
+msgstr "Copyright 2008 Marco Rossini"
+
+#: ../src/plugin.c:35
+msgid "_Wavelet sharpen ..."
+msgstr "Affilatura tramite _wavelet..."
+
+#: ../src/sharpen.c:64
+msgid "Wavelet sharpening..."
+msgstr "Affilatura tramite wavelet..."

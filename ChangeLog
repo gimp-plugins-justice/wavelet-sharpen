@@ -1,0 +1,26 @@
+ChangeLog
+=========
+
+wavelet-sharpen v0.1.2
+-------------------------------------------------------------------------------
+- Added translations:
+  - Polish (thanks to Michal Predotka)
+  - Estonian (thanks to Jyri Liira)
+
+wavelet-sharpen v0.1.1
+-------------------------------------------------------------------------------
+- Added translations:
+  - Italian (thanks to Carlo Baldassi)
+  - Russian (thanks to Alexandre Prokoudine)
+
+wavelet-sharpen v0.1
+-------------------------------------------------------------------------------
+- Added gettext support.
+- Added language german (by Marco Rossini).
+- Source files split.
+- Changed build system to use Makefiles.
+- Licencse changed from GPLv2 to GPLv2+
+
+wavelet-sharpen v0.1-beta
+-------------------------------------------------------------------------------
+- First release.

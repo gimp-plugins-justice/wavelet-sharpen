@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wavelet Sharpen GIMP plug-in\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-13 11:26+0100\n"
+"PO-Revision-Date: 2008-12-16 02:19+0300\n"
+"Last-Translator: Alexandre Prokoudine <alexandre.prokoudine@gmail.com>\n"
+"Language-Team: GNOME Cyrillic <gnome--cyr@lists.gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ../src/plugin.h:36
+msgid "Adjusts the amount of sharpening applied."
+msgstr "Величина применяемой резкости"
+
+#: ../src/plugin.h:37
+msgid "Adjusts the radius of the sharpening. For very unsharp images it is recommended to use higher values. Default is 0.5."
+msgstr "Радиус при повышении резкости. Чем нерезче изображение, тем больше должно быть значение. По умолчанию оно равно 0,5."
+
+#: ../src/plugin.h:38
+msgid "Sharpens luminance only (YCbCr luminance channel). This avoids color artifacts to appear and makes the sharpening faster. Colour sharpness in natural images is not critical for the human eye."
+msgstr "Повышать резкость только в канале светимости в цветовом пространстве YCbCr. Это позволяет избегать появления артефактов и ускоряет саму обработку. Резкость в хроматических каналах для человеческого глаза не критична."
+
+#: ../src/plugin.h:39
+msgid "Resets to the default values."
+msgstr "Сбросить до исходных значений"
+
+#: ../src/interface.c:20
+#: ../src/interface.c:125
+msgid "Wavelet sharpen"
+msgstr "Вейвлетное повышение резкости"
+
+#: ../src/interface.c:33
+msgid "Amount"
+msgstr "Количество"
+
+#: ../src/interface.c:61
+msgid "Radius"
+msgstr "Радиус"
+
+#: ../src/interface.c:91
+msgid "Sharpen luminance only"
+msgstr "Работать только в канале светимости"
+
+#: ../src/plugin.c:29
+#: ../src/plugin.c:30
+msgid "Sharpens the image using wavelets."
+msgstr "Повысить резкость изображения при помощи вейвлетов"
+
+#: ../src/plugin.c:32
+msgid "Marco Rossini"
+msgstr "Marco Rossini"
+
+#: ../src/plugin.c:33
+msgid "Copyright 2008 Marco Rossini"
+msgstr "Авторские права 2008 Marco Rossini"
+
+#: ../src/plugin.c:35
+msgid "_Wavelet sharpen ..."
+msgstr "В_ейвлетное повышение резкости..."
+
+#: ../src/sharpen.c:64
+msgid "Wavelet sharpening..."
+msgstr "Вейвлетное повышение резкости..."
+
